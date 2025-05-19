@@ -1,5 +1,5 @@
 
-# 80286 PLCC68 TO DIP62 CONVERTER BOARD
+# 80286 PLCC68 TO DIP60 CONVERTER BOARD
 This is a simple two-layer PCB design that converts the 80286 CPU in the PLCC68 package to DIP60 package.
 
 ### To use it:
@@ -12,7 +12,7 @@ This is a simple two-layer PCB design that converts the 80286 CPU in the PLCC68 
 - Enjoy :DDDD !
 
 ## Some important details
-- There are only **60** pins going out of the board, this is because there are 6 NC pins on the CPU itself.
+- There are only **60** pins going out of the board, this is because there are 6 NC pins on the CPU itself, and a couple GND and VCC pins, which are connected on the PCB.
 - The PCB is designed so that all of the addresing and data pins are next to eachother, for convenience. 
 - The pins that are active-high are labeled using normal text, while active-low pins are in negative text.
 - For more details on the 80286 CPU check out the [datasheet](https://datasheets.chipdb.org/Harris/80c286.pdf)
